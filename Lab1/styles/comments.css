@@ -10,7 +10,7 @@
 
 .comments h2 {
     font-size: 35px; 
-    font-weight: bold;
+    font-weight: 600;
     color: #333;
     width: 392.346px;
     max-width: 400px;
@@ -118,7 +118,7 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px; 
     display: flex;
     width: 297.892px;
     height: 100px;
