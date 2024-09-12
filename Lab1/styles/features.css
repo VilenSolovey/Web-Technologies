@@ -1,0 +1,73 @@
+.features {
+    background: linear-gradient(180deg, #F6F5F5 -45.04%, #FFF 19.67%, #F4F3F3 88.56%);
+    padding: 80px 135px 123px 145px;
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between; 
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    max-width: 508.12px;
+    max-height: 417.07px;
+    margin-right: 50px;
+}
+
+.text {
+    max-width: 50%;
+    padding-top: 60px; 
+}
+
+.text h2 {
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 500;
+    color: #333;
+    font-weight: bolder;
+    max-width: 450px;
+}
+
+.text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #777;
+    max-width: 420px;
+}
+
+.list {
+    list-style: none; 
+    padding: 0;
+    margin-top: 40px;
+}
+
+.list li {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 20px; 
+    align-items: flex-end;
+    color: #4F5665;
+
+}
+
+.list li a {
+    text-decoration: none;
+    color: #4F5665;
+    font-weight: 400;
+    font-size: 14px; 
+    margin-left: 10px;
+    line-height: 1.5; 
+    
+}
+
+.list li::before {
+    content: ''; 
+    display: inline-block;
+    width: 24px; 
+    height: 24px;
+    background-image: url('../assets/mark.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+  
+}

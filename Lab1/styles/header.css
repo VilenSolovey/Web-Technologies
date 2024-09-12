@@ -1,0 +1,58 @@
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 149px;
+    height: 36.23px;
+    margin-left: -30px;
+    margin-right: 35px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-grow: 1; 
+    padding: 0px 65px 0px 65px;
+    gap: 40px; 
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 40px; 
+    padding-left: 40px;
+    margin-right: -45px;
+    align-items: center
+}
+
+.sign-in {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+
+.sign-up {
+    border: 1px solid #F53855;
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    color: #F53855;
+    text-decoration: none;
+    font-weight: 500; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
