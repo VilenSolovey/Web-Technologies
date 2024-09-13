@@ -1,0 +1,138 @@
+.comments-section {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.comments {
+    text-align: center;
+    padding-top: 73px;
+}
+
+.comments h2 {
+    font-size: 35px; 
+    font-weight: 600;
+    color: #333;
+    width: 392.346px;
+    max-width: 400px;
+    margin: 0 auto; 
+    line-height: 1.5;
+}
+
+.comments p {
+    font-size: 16px; 
+    color: #777;
+    max-width: 500px;
+    font-family: Rubik;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-bottom: 0px; 
+}
+
+.comments-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px; 
+    padding: 80px;
+}
+
+.comments-box {
+    width: 351px;
+    height: 230px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 20px;
+    padding-bottom: 30px;
+    margin: 5px;
+    margin-bottom: 170px;
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box-top {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-img img {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.profile-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.name-user {
+    flex-grow: 1;
+}
+
+.name-user strong {
+    color: #3d3d3d;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+.reviews {
+    display: flex;
+    align-items: center;
+}
+
+.rating-number {
+    color: #0B132A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+.star {
+    color: #FFD700; 
+    font-size: 1.2rem;
+}
+
+.client-comments {
+    color: #0B132A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    display: flex;
+    width: 297.892px;
+    height: 100px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.client-comments p {
+    font-size: 16px;
+    color: #3d3d3d; 
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}

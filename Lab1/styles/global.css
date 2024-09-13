@@ -1,0 +1,42 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #333;
+}
+
+header {
+    background-color: #FFFFFF;
+    padding: 38px 195px 0px 195px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer {
+    background-color: #F6F5F5;
+    width: 100%;
+    padding: 1px;
+    text-align: flex-start;
+    padding-bottom: 1px;
+    color: #333;
+    
+}
+h1 {
+    font-family: Rubik;
+}
+p {
+    font-family: Rubik;
+}
