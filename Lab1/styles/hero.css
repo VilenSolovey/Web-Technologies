@@ -5,19 +5,18 @@
     align-items: center;
     padding: 87px 87px 147px 165px;
     font-family: Rubik;
-  
-
+    position: relative;
 }
 
 .hero-text {
     max-width: 50%;
+    position: relative;
 }
 
 .hero-text h1 {
     font-size: 50px;
     color: #0B132A;
     font-family: Rubik;
-    font-size: 50px;
     font-weight: 500;
     line-height: 70px;
     max-width: 520px;
@@ -27,36 +26,36 @@
     font-size: 16px;
     font-weight: 500;
     margin-top: 20px;
-    color: #4F5665;;
+    color: #4F5665;
     line-height: 30px;
 }
+
+.hero-button {
+    display: inline-block;
+    background: #F53838;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    font-weight: 700;
+    flex-shrink: 0;
+    position: relative; 
+    z-index: 1; 
+    margin-top: 48px; 
+}
+
 .button-shadow {
     position: absolute;
     width: 250px;
-    padding-top: 15px;
-    height: 13px;
+    height: 11px;
     border-radius: 10px;
-    background: rgba(245, 56, 56, 0.95);
-    filter: blur(27px);
-    z-index: 0;
-}
-.hero-text button {
-    padding: 10px 20px;
-    z-index: 1; /* Кнопка зверху */
-    background-color: #F53838;
-    color: white;
-    color: #FFF;
-    font-family: Rubik;
-    font-style: normal;
-    line-height: 25px; 
-    height: 60px;
-    font-weight: 700;
-    width: 250px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    margin-top: 50px;
-    font-size: 16px;
+    background: rgba(245, 56, 56, 0.98);
+    filter: blur(21px);
+    z-index: 0; 
 }
 
 .hero-image img {

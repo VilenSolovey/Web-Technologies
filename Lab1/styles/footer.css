@@ -51,18 +51,20 @@
 }
 
 .subscribe-button {
+    display: inline-block;
     background-color: #F53838;
     border-radius: 10px;
     width: 250px;
     font-weight: 700;
     height: 60px;
     color: #FFF;
-    border: none;
-    padding: 15px 30px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 60px; 
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    position: relative; 
+    position: relative;
     z-index: 1;
 }
 
@@ -91,7 +93,7 @@
     height: 13px;
     border-radius: 10px;
     background: rgba(245, 56, 56, 0.95);
-    filter: blur(27px);
+    filter: blur(24px);
     z-index: 0;
 }
 .footer-content p {
