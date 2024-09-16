@@ -11,6 +11,7 @@ body {
     color: #333;
 }
 
+
 header {
     background-color: #FFFFFF;
     padding: 38px 195px 0px 195px;
@@ -39,4 +40,45 @@ h1 {
 }
 p {
     font-family: Rubik;
+}
+@media screen and (max-width: 768px) {
+    header {
+        position: fixed;
+        left: 0;
+        right: 15;
+        top: 0;
+        padding: 6px 10px 0px 0px;
+        background-color: #fff;
+        z-index:10
+    }
+    body {
+        padding-top :30px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    header {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        padding: 10px 10px 40px 10px;
+        background-color: #fff;
+        z-index:10
+    }
+    body {
+        padding-top :30px;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    header {
+        padding: 38px 195px 0px 147px;
+    }
+    body {
+        padding-top :30px;
+    }
+}
+@media screen and (min-width: 1240px) and (max-width: 2561px) {
+    nav {
+        justify-content: center;
+    }
 }
