@@ -48,6 +48,11 @@
     margin-top: 48px; 
 }
 
+.hero-button:hover {
+    transform: scale(1.1); 
+    background-color: #D32F2F; 
+    box-shadow: 0 8px 15px rgba(211, 47, 47, 0.4);
+}
 .button-shadow {
     position: absolute;
     width: 250px;
@@ -62,4 +67,103 @@
     width: 611.24px;
     height: 406.08px;
     max-width: 100%;
+}
+@media screen and (max-width: 1280px) {
+    .button-wrapper {
+        position: relative; 
+        display: inline-block;
+    }
+    .hero {
+        flex-direction: column-reverse; 
+        align-items: center;
+        padding: 50px 20px;
+        
+    }
+    
+    .hero-text {
+        max-width: 100%; 
+        text-align: center;
+    }
+    
+    .hero-text h1 {
+        font-size: 40px; 
+        line-height: 55px;
+    }
+
+    .hero-text p {
+        font-size: 14px; 
+        line-height: 25px;
+    }
+
+    .hero-button {
+        width: 220px;
+        height: 55px;
+        line-height: 55px;
+        font-size: 14px;
+        margin-top: 30px;
+        box-shadow: 0 11px 21px rgba(245, 56, 56, 0.50);
+    }
+
+    .hero-image img {
+       margin-bottom: 15px;
+        height: auto;
+        margin-top: 30px;
+    }
+    .button-shadow {
+        display: none
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 40px 20px;
+    }
+    
+    .hero-text {
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    .hero-text h1 {
+        font-size: 24px; 
+        line-height: 40px;
+    }
+
+    .hero-text p {
+        font-size: 12px; 
+        line-height: 20px;
+    }
+
+    .hero-button {
+        width: 200px; 
+        height: 50px;
+        line-height: 50px;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    .button-shadow {
+        width: 300px;
+        height: 10px;
+        margin-bottom: 35px;
+        filter: blur(10px);
+    }
+
+    .hero-image img {
+        width: 300px;
+        height: auto;
+    }
+    .button-shadow {
+        display: none
+    }
+}
+
+
+@media screen and (min-width: 1240px) and (max-width: 2560px) {
+    .hero {
+        justify-content: center;
+    }
 }

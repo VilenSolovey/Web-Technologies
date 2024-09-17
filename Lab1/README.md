@@ -7,3 +7,7 @@
 ## Створення вебсторінки по дизайну з Figma
 
 ## Посилання на Figma --> https://www.figma.com/design/lHndrklK8vHXhxIlG2A3bz/Untitled?node-id=1-4&node-type=rounded_rectangle&m=dev
+
+---
+
+#
