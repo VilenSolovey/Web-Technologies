@@ -67,12 +67,29 @@
 }
 
 @media screen and (max-width: 768px) {
+    .hidden {
+        display: none;
+    }
+    #menu-icon {
+        width: 24px; 
+        height: 24px; 
+        transition: opacity 0.3s ease;
+    }
+
+    .open #menu-icon {
+        opacity: 0;
+    }
+
+    .show {
+        display: inline;
+    }
+    
     .header-menu {
         display: block;
         width: 42px;
         cursor: pointer;
     }
-
+   
     .auth-buttons, .nav-links {
         display: none; 
     }

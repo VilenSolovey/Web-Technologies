@@ -132,6 +132,7 @@
     border-radius: 50%; 
     background-color: #fff;
     transition: transform 0.3s ease;
+    text-decoration: none; 
 }
 
 .button.icon:hover {
@@ -267,4 +268,3 @@
         display: none
     }
 }
-

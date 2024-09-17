@@ -41,6 +41,7 @@ h1 {
 p {
     font-family: Rubik;
 }
+
 @media screen and (max-width: 768px) {
     header {
         position: fixed;
