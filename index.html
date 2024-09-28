@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes Shop</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <div class="header">
+        <div>
+            <a href="#">Shoes Shop</a>
+        </div>
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="Type something...">
+            <button type="button" id="search-btn">Search</button>
+            <button type="button" id="clear-btn" >Clear</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <h2>Manage Shoes</h2>
+            <label>Сортувати по ціні</label>
+            <button class="count-btn" id="sort-btn">Sort</button>
+            <div style="margin: 10px 0;">
+                <label>Порахувати загальну вартість взуття</label>
+                <button class="count-btn" id="count-btn">Count</button>
+                <p>Загальна ціна: <strong id="total-price"> ₴0</strong></p>
+            </div>
+        </div>
+
+        <div class="content" id="shoe-list">
+
+        </div>
+    </div>
+
+    <script src="./js/javascript.js"></script>
+</body>
+</html>
