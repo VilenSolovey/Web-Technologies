@@ -47,7 +47,7 @@
                 <label for="shoe-size">Розмір:</label>
                 <input type="number" id="shoe-size" required>
             
-                <button type="submit" id="submit-shoe">Додати</button>
+                <button type="submit" id="submit-shoe" >Додати</button>
             </form>
         </div>
     </div>
@@ -61,10 +61,10 @@
                 <input type="text" id="edit-shoe-name" required>
                 
                 <label for="edit-shoe-price">Ціна (₴):</label>
-                <input type="number" id="edit-shoe-price" required>
+                <input type="number" id="edit-shoe-price" min=0 required>
                 
                 <label for="edit-shoe-size">Розмір:</label>
-                <input type="number" id="edit-shoe-size" required>
+                <input type="number" id="edit-shoe-size" min=1 required>
 
                 
                 <button type="submit" id="submit-edit-shoe">Зберегти зміни</button>
