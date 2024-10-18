@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes Shop</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <div class="header">
+        <div>
+            <a href="#">Shoes Shop</a>
+        </div>
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="Type something...">
+            <button type="button" id="search-btn">Search</button>
+            <button type="button" id="clear-btn">Clear</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <h2>Manage Shoes</h2>
+            <label>Сортувати по ціні</label>
+            <button class="count-btn" id="sort-btn">Sort</button>
+            <div style="margin: 10px 0;">
+                <label>Порахувати загальну вартість взуття</label>
+                <button class="count-btn" id="count-btn">Count</button>
+                <p>Загальна ціна: <strong id="total-price"> ₴0</strong></p>
+            </div>
+            <button class="count-btn" id="add-shoes-btn">Add Shoes</button>
+        </div>
+
+        <div class="content" id="shoe-list"></div>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="close-btn">&times;</span>
+            <h2>Додати нове взуття</h2>
+            <form id="add-shoe-form">
+                <label for="shoe-name">Назва взуття:</label>
+                <input type="text" id="shoe-name" required>
+                <label for="shoe-price">Ціна (₴):</label>
+                <input type="number" id="shoe-price" min=0 required>
+                <label for="shoe-size">Розмір:</label>
+                <input type="number" id="shoe-size" min=1 required>
+            
+                <button type="submit" id="submit-shoe" >Додати</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal" id="edit-modal">
+        <div class="modal-content">
+            <span class="close-btn" id="close-edit-btn">&times;</span>
+            <h2>Редагувати взуття</h2>
+            <form id="edit-shoe-form">
+                <label for="edit-shoe-name">Назва взуття:</label>
+                <input type="text" id="edit-shoe-name" required>
+                
+                <label for="edit-shoe-price">Ціна (₴):</label>
+                <input type="number" id="edit-shoe-price" min=0 required>
+                
+                <label for="edit-shoe-size">Розмір:</label>
+                <input type="number" id="edit-shoe-size" min=1 required>
+
+                
+                <button type="submit" id="submit-edit-shoe">Зберегти зміни</button>
+            </form>
+        </div>
+    </div>
+    <script type="module" src="./javascript/javascript.js"></script>
+</body>
+</html>
